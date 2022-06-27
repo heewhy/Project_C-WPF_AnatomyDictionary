@@ -1,0 +1,42 @@
+﻿<Window x:Class="해부학사전.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:해부학사전"
+        mc:Ignorable="d"
+        Title="의료IT공학과해부학사전 v 1.3" Height="380" Width="558">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="188*"/>
+            <ColumnDefinition Width="87*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="2">
+            <Menu>
+                <MenuItem Header="메뉴">
+                    <MenuItem Header="인체도" Width="120" HorizontalContentAlignment="Center">
+                        <MenuItem Header="근육계통" Click="MenuItem_Click_1" />
+                        <MenuItem Header="뼈" Click="MenuItem_Click" />
+                        <MenuItem Header="신경계통" Click="MenuItem_Click_2"/>
+                    </MenuItem>
+                    <Separator/>
+                    <MenuItem Header="검색" Click="Search_Click" HorizontalAlignment="Center"/>
+                    <Separator/>
+                    <MenuItem Header="전문가" HorizontalAlignment="Center" VerticalAlignment="Center" Click="MenuItem_Click_3"/>
+                    <Separator/>
+                    <MenuItem Header="끝내기" HorizontalAlignment="Center" VerticalAlignment="Center" Click="MenuItem_Click_4"/>
+                </MenuItem>
+            </Menu>
+            <TextBlock Margin="10,10,0,0"><Run Text="버전 1.0v"/></TextBlock>
+            <TextBlock Margin="10"  Height="130" FontSize="96" Background="Black" Foreground="White">해부학 사전</TextBlock>
+            <Button HorizontalAlignment="Center" Width="125" Content="버전정보" Margin="0,50,0,0" Click="Button_Click" Background="Black" Foreground="White"></Button>
+            <TextBlock HorizontalAlignment="Right" Margin="0,10,20,0" Background="Black" Foreground="White">10조</TextBlock>
+            <TextBlock HorizontalAlignment="Right" Margin="0,0,20,0" Background="Black" Foreground="White">12615039 이준호</TextBlock>
+            <TextBlock HorizontalAlignment="Right" Margin="0,0,20,0" Background="Black" Foreground="White">13615029 박영호</TextBlock>
+            <StackPanel Orientation="Horizontal"> 
+                <TextBlock HorizontalAlignment="Left" Background="Black" Foreground="Red">이미지 저작권 문제로 베포를 금합니다.</TextBlock>
+                <TextBlock HorizontalAlignment="Right" Margin="217,0,20,0" Background="Black" Foreground="White">14615032 윤성희</TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

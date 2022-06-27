@@ -1,0 +1,3 @@
+C:\Users\윤성희\Desktop\해부학사전\해부학사전\bin\Release\해부학사전.exe.config
+C:\Users\윤성희\Desktop\해부학사전\해부학사전\obj\Release\Interop.ADOX.dll
+C:\Users\윤성희\Desktop\해부학사전\해부학사전\obj\Release\해부학사전.csproj.ResolveComReference.cache

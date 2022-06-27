@@ -1,0 +1,31 @@
+﻿<Window x:Class="해부학사전.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:해부학사전"
+        mc:Ignorable="d"
+        Title="sysImage" Height="380" Width="558">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Margin="10" Name="sysimage"></Image>
+        <StackPanel Grid.Column="1" Margin="20,40,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Button Height="40" Width="100" Margin="10" Name="btnsys1" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+                <Button Height="40" Width="100" Margin="10" Name="btnsys2" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Height="40" Width="100" Margin="10" Name="btnsys3" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+                <Button Height="40" Width="100" Margin="10" Name="btnsys4" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Height="40" Width="100" Margin="10" Name="btnsys5" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+                <Button Height="40" Width="100" Margin="10" Name="btnsys6" Content="" Click="btnsys_Click" Foreground="White" Background="Black"></Button>
+            </StackPanel>
+            <Button Height="50" Width="140" Margin="5,40,10,0" Name="retu" Click="retu_Click">돌아가기</Button>
+        </StackPanel>
+    </Grid>
+</Window>
